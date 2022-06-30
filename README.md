@@ -1,13 +1,3 @@
-
-####  对蓝牙感兴趣可以加群讨论学习(QQ：494309361 或加微信(liulei633001)把你拉到微信讨论群)
-
-### 有个人项目或者定制化需求的可加QQ:823581722 进行联系
-### Email：jerryee0911@qq.com
-
-### 扫描下载APK:
-![二维码.png](https://github.com/aicareles/Android-BLE/blob/master/screenshots/download.png)
-
-
 # Android-BLE
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Download](https://api.bintray.com/packages/superliu/maven/BleLib/images/download.svg)](https://bintray.com/superliu/maven/BleLib/_latestVersion)
@@ -23,9 +13,6 @@ Android-BLE蓝牙框架,提供了扫描、连接、使能/除能通知、发送/
 * **ByteUtils** - 各种字节数据转换的工具类.
 * **CrcUtils** - 字节校验的crc各种算法的工具类.
 * **UuidUtils** - 蓝牙服务/特征uuid转换工具类.
-
-## 异常状态码
-[BleStates](https://github.com/aicareles/Android-BLE/blob/master/core/src/main/java/cn/com/heaton/blelibrary/ble/BleStates.java)
 
 ## 接入前提示
 ```
@@ -268,45 +255,6 @@ ble.cancelCallback(scanCallback);
 请通过该 [Wiki BLE Page][Wiki] 了解更多信息.
 
 [Wiki]:https://github.com/aicareles/Android-BLE/wiki#连接常见问题
-
-## Java-Sample Screenshot：
-
-![2](https://github.com/aicareles/Android-BLE/blob/master/screenshots/2.jpeg)
-![3](https://github.com/aicareles/Android-BLE/blob/master/screenshots/3.jpeg)
-![4](https://github.com/aicareles/Android-BLE/blob/master/screenshots/4.jpeg)
-
-## *License*
-```
-Copyright 2016 jerry
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-## Contribute：
-![](https://upload-images.jianshu.io/upload_images/3884117-5d22ae84180a93ed.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
-![](https://upload-images.jianshu.io/upload_images/3884117-1f6c1c0fb5885252.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
