@@ -1,6 +1,4 @@
 # Android-BLE
-[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Download](https://api.bintray.com/packages/superliu/maven/BleLib/images/download.svg)](https://bintray.com/superliu/maven/BleLib/_latestVersion)
 
 Android-BLE蓝牙框架,提供了扫描、连接、使能/除能通知、发送/读取数据、接收数据,读取rssi,设置mtu等蓝牙相关的所有操作接口,内部优化了连接队列,以及快速写入队列,
 并支持多服务通讯,可扩展配置蓝牙相关操作。
@@ -21,7 +19,7 @@ Android-BLE蓝牙框架,提供了扫描、连接、使能/除能通知、发送/
 ```
 
 ## 接入文档
-### 1. 在 **build.gradle** 中添加下面依赖. [![Download](https://api.bintray.com/packages/superliu/maven/BleLib/images/download.svg)](https://bintray.com/superliu/maven/BleLib/_latestVersion)
+### 1. 在 **build.gradle** 中添加下面依赖.
 ``` groovy
 implementation 'cn.com.superLei:blelibrary:latestVersion'
 ```
@@ -247,16 +245,6 @@ ble.cancelCallback(scanCallback);
 ```
  ble.released();
 ```
-
-## 历史版本介绍：
-[历史版本](https://github.com/aicareles/Android-BLE/wiki/BLE%E5%BA%93%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D)
-
-## BLE蓝牙常见问题及解决方案
-请通过该 [Wiki BLE Page][Wiki] 了解更多信息.
-
-[Wiki]:https://github.com/aicareles/Android-BLE/wiki#连接常见问题
-
-
 
 
 
